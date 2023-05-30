@@ -1,0 +1,65 @@
+2023-05-30 21:34:11,955 INFO    StreamThr :1482712 [internal.py:wandb_internal():86] W&B internal server running at pid: 1482712, started at: 2023-05-30 21:34:11.954199
+2023-05-30 21:34:11,984 DEBUG   HandlerThread:1482712 [handler.py:handle_request():144] handle_request: status
+2023-05-30 21:34:11,994 INFO    WriterThread:1482712 [datastore.py:open_for_write():85] open: /home/nlp-lab/prad_project/ViT_training/wandb/run-20230530_213411-x2x818y3/run-x2x818y3.wandb
+2023-05-30 21:34:11,995 DEBUG   SenderThread:1482712 [sender.py:send():375] send: header
+2023-05-30 21:34:12,654 DEBUG   SenderThread:1482712 [sender.py:send():375] send: run
+2023-05-30 21:34:13,381 DEBUG   HandlerThread:1482712 [handler.py:handle_request():144] handle_request: check_version
+2023-05-30 21:34:13,399 INFO    SenderThread:1482712 [dir_watcher.py:__init__():219] watching files in: /home/nlp-lab/prad_project/ViT_training/wandb/run-20230530_213411-x2x818y3/files
+2023-05-30 21:34:13,399 INFO    SenderThread:1482712 [sender.py:_start_run_threads():1124] run started: x2x818y3 with start time 1685462651.940618
+2023-05-30 21:34:13,400 DEBUG   SenderThread:1482712 [sender.py:send_request():402] send_request: summary_record
+2023-05-30 21:34:13,400 INFO    SenderThread:1482712 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-30 21:34:13,400 DEBUG   SenderThread:1482712 [sender.py:send_request():402] send_request: check_version
+2023-05-30 21:34:13,558 DEBUG   HandlerThread:1482712 [handler.py:handle_request():144] handle_request: run_start
+2023-05-30 21:34:13,574 DEBUG   HandlerThread:1482712 [system_info.py:__init__():31] System info init
+2023-05-30 21:34:13,574 DEBUG   HandlerThread:1482712 [system_info.py:__init__():46] System info init done
+2023-05-30 21:34:13,575 INFO    HandlerThread:1482712 [system_monitor.py:start():181] Starting system monitor
+2023-05-30 21:34:13,582 INFO    SystemMonitor:1482712 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-30 21:34:13,584 INFO    HandlerThread:1482712 [system_monitor.py:probe():201] Collecting system info
+2023-05-30 21:34:13,608 INFO    SystemMonitor:1482712 [interfaces.py:start():190] Started cpu monitoring
+2023-05-30 21:34:13,628 INFO    SystemMonitor:1482712 [interfaces.py:start():190] Started disk monitoring
+2023-05-30 21:34:13,651 DEBUG   HandlerThread:1482712 [system_info.py:probe():195] Probing system
+2023-05-30 21:34:13,663 INFO    SystemMonitor:1482712 [interfaces.py:start():190] Started gpu monitoring
+2023-05-30 21:34:13,670 DEBUG   HandlerThread:1482712 [system_info.py:_probe_git():180] Probing git
+2023-05-30 21:34:13,676 INFO    SystemMonitor:1482712 [interfaces.py:start():190] Started memory monitoring
+2023-05-30 21:34:13,686 INFO    SystemMonitor:1482712 [interfaces.py:start():190] Started network monitoring
+2023-05-30 21:34:13,704 DEBUG   HandlerThread:1482712 [system_info.py:_probe_git():188] Probing git done
+2023-05-30 21:34:13,704 DEBUG   HandlerThread:1482712 [system_info.py:probe():240] Probing system done
+2023-05-30 21:34:13,704 DEBUG   HandlerThread:1482712 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-72-generic-x86_64-with-glibc2.31', 'python': '3.9.16', 'heartbeatAt': '2023-05-30T16:04:13.651861', 'startedAt': '2023-05-30T16:04:11.925301', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/Kansi420/ViT_training.git', 'commit': '36b6b10c8e074b24daaf719ed12cab27b309d21c'}, 'email': 'dobariyadarshan9@gmail.com', 'root': '/home/nlp-lab/prad_project/ViT_training', 'host': 'nlplab', 'username': 'nlp-lab', 'executable': '/home/nlp-lab/anaconda3/envs/open_ai/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 1.5503125, 'min': 800.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 1.4, 'min': 800.0, 'max': 3200.0}, {'current': 1.399, 'min': 800.0, 'max': 3200.0}, {'current': 1.4, 'min': 800.0, 'max': 3200.0}, {'current': 1.399, 'min': 800.0, 'max': 3200.0}, {'current': 1.4, 'min': 800.0, 'max': 3200.0}, {'current': 1.4, 'min': 800.0, 'max': 3200.0}, {'current': 1.4, 'min': 800.0, 'max': 3200.0}, {'current': 1.4, 'min': 800.0, 'max': 3200.0}, {'current': 1.4, 'min': 800.0, 'max': 3200.0}, {'current': 1.399, 'min': 800.0, 'max': 3200.0}, {'current': 1.4, 'min': 800.0, 'max': 3200.0}, {'current': 1.4, 'min': 800.0, 'max': 3200.0}, {'current': 1.4, 'min': 800.0, 'max': 3200.0}, {'current': 1.399, 'min': 800.0, 'max': 3200.0}, {'current': 1.399, 'min': 800.0, 'max': 3200.0}, {'current': 1.399, 'min': 800.0, 'max': 3200.0}], 'disk': {'total': 182.2811393737793, 'used': 41.599281311035156}, 'gpu': 'NVIDIA GeForce RTX 3080', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3080', 'memory_total': 10737418240}, {'name': 'NVIDIA GeForce RTX 3080', 'memory_total': 10737418240}], 'memory': {'total': 62.4444465637207}}
+2023-05-30 21:34:13,705 INFO    HandlerThread:1482712 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-30 21:34:13,705 INFO    HandlerThread:1482712 [system_monitor.py:probe():214] Publishing system info
+2023-05-30 21:34:13,705 DEBUG   HandlerThread:1482712 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-30 21:34:13,705 DEBUG   HandlerThread:1482712 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-30 21:34:13,706 DEBUG   HandlerThread:1482712 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-30 21:34:14,388 INFO    Thread-12 :1482712 [dir_watcher.py:_on_file_created():278] file/dir created: /home/nlp-lab/prad_project/ViT_training/wandb/run-20230530_213411-x2x818y3/files/requirements.txt
+2023-05-30 21:34:14,389 INFO    Thread-12 :1482712 [dir_watcher.py:_on_file_created():278] file/dir created: /home/nlp-lab/prad_project/ViT_training/wandb/run-20230530_213411-x2x818y3/files/conda-environment.yaml
+2023-05-30 21:34:14,389 INFO    Thread-12 :1482712 [dir_watcher.py:_on_file_created():278] file/dir created: /home/nlp-lab/prad_project/ViT_training/wandb/run-20230530_213411-x2x818y3/files/wandb-summary.json
+2023-05-30 21:34:36,937 DEBUG   HandlerThread:1482712 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-30 21:34:36,937 INFO    HandlerThread:1482712 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-30 21:34:36,940 DEBUG   HandlerThread:1482712 [handler.py:handle_request():144] handle_request: status_report
+2023-05-30 21:34:36,940 DEBUG   HandlerThread:1482712 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-30 21:34:36,941 DEBUG   HandlerThread:1482712 [handler.py:handle_request():144] handle_request: status_report
+2023-05-30 21:34:36,941 DEBUG   HandlerThread:1482712 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-30 21:34:36,941 DEBUG   HandlerThread:1482712 [handler.py:handle_request():144] handle_request: status_report
+2023-05-30 21:34:36,941 DEBUG   HandlerThread:1482712 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-30 21:34:36,941 DEBUG   HandlerThread:1482712 [handler.py:handle_request():144] handle_request: status_report
+2023-05-30 21:34:36,941 DEBUG   HandlerThread:1482712 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-30 21:34:36,942 DEBUG   SenderThread:1482712 [sender.py:send():375] send: files
+2023-05-30 21:34:36,942 INFO    SenderThread:1482712 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-30 21:34:36,962 DEBUG   HandlerThread:1482712 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-30 21:34:36,962 DEBUG   SenderThread:1482712 [sender.py:send_request():402] send_request: stop_status
+2023-05-30 21:34:37,324 DEBUG   SenderThread:1482712 [sender.py:send():375] send: telemetry
+2023-05-30 21:34:37,324 DEBUG   SenderThread:1482712 [sender.py:send():375] send: config
+2023-05-30 21:34:37,326 DEBUG   SenderThread:1482712 [sender.py:send():375] send: metric
+2023-05-30 21:34:37,326 DEBUG   SenderThread:1482712 [sender.py:send():375] send: telemetry
+2023-05-30 21:34:37,327 DEBUG   SenderThread:1482712 [sender.py:send():375] send: metric
+2023-05-30 21:34:37,327 WARNING SenderThread:1482712 [sender.py:send_metric():1329] Seen metric with glob (shouldn't happen)
+2023-05-30 21:34:37,401 INFO    Thread-12 :1482712 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/nlp-lab/prad_project/ViT_training/wandb/run-20230530_213411-x2x818y3/files/conda-environment.yaml
+2023-05-30 21:34:37,401 INFO    Thread-12 :1482712 [dir_watcher.py:_on_file_created():278] file/dir created: /home/nlp-lab/prad_project/ViT_training/wandb/run-20230530_213411-x2x818y3/files/wandb-metadata.json
+2023-05-30 21:34:38,009 INFO    wandb-upload_0:1482712 [upload_job.py:push():137] Uploaded file /tmp/tmpj405uz9nwandb/xifmxyy0-wandb-metadata.json
+2023-05-30 21:34:38,327 DEBUG   HandlerThread:1482712 [handler.py:handle_request():144] handle_request: status_report
+2023-05-30 21:34:41,628 INFO    cpu       :1482712 [interfaces.py:monitor():140] Process cpu has exited.
+2023-05-30 21:34:41,629 DEBUG   SystemMonitor:1482712 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-30 21:34:41,629 DEBUG   SystemMonitor:1482712 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-30 21:34:41,629 DEBUG   SystemMonitor:1482712 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-30 21:34:41,631 DEBUG   SenderThread:1482712 [sender.py:send():375] send: stats
+2023-05-30 21:34:42,565 INFO    MainThread:1482712 [internal.py:handle_exit():76] Internal process exited

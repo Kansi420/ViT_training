@@ -1,0 +1,128 @@
+{
+    "os": "Linux-5.15.0-72-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-05-30T15:04:22.178983",
+    "startedAt": "2023-05-30T15:04:20.654747",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Kansi420/ViT_training.git",
+        "commit": "36b6b10c8e074b24daaf719ed12cab27b309d21c"
+    },
+    "email": "dobariyadarshan9@gmail.com",
+    "root": "/home/nlp-lab/prad_project/ViT_training",
+    "host": "nlplab",
+    "username": "nlp-lab",
+    "executable": "/home/nlp-lab/anaconda3/envs/open_ai/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1.8180625000000001,
+        "min": 800.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.029,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1.654,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1.869,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1.525,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.012,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1.616,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.026,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1.488,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1.518,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1.975,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1.574,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1.4,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1.641,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1.4,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1.931,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1.486,
+            "min": 800.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "total": 182.2811393737793,
+        "used": 41.59621047973633
+    },
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3080",
+            "memory_total": 10737418240
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3080",
+            "memory_total": 10737418240
+        }
+    ],
+    "memory": {
+        "total": 62.4444465637207
+    }
+}
